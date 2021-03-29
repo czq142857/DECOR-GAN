@@ -60,12 +60,12 @@ python main.py --data_style style_laptop_32 --data_content content_laptop_all_re
 python main.py --data_style style_plant_20 --data_content content_plant_all_repeat8 --data_dir ./data/03593526_03991062/ --alpha 0.5 --beta 10.0 --input_size 32 --output_size 256 --train --asymmetry --gpu 0
 ```
 Note that *style_chair_64* means the model will be trained with 64 detailed chairs. You can modify the list of detailed shapes in folder *splits*, such as *style_chair_64.txt*. You can also modify the list of content shapes in folder *splits*. The parameters *input_size* and *output_size* specify the resolutions of the input and output voxels. Valid settings are as follows:
-| Input resolution | Input resolution | Upsampling rate |
-| ---------------- | ---------------- | --------------- |
-| 64               | 256              | x4              |
-| 32               | 128              | x4              |
-| 32               | 256              | x8              |
-| 16               | 128              | x8              |
+| Input resolution | Output resolution | Upsampling rate |
+| ---------------- | ----------------- | --------------- |
+| 64               | 256               | x4              |
+| 32               | 128               | x4              |
+| 32               | 256               | x8              |
+| 16               | 128               | x8              |
 
 ## GUI application
 
