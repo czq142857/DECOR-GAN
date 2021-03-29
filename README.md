@@ -116,7 +116,15 @@ The third command evaluates the outputs. The results are written to folder *eval
 
 
 ### FID
-To test FID-all and FID-style, you need to first train a classification model on shapeNet. You can use the provided pre-trained weights (*Clsshapenet_128.pth* and *Clsshapenet_256.pth* for 128<sup>3</sup> and 256<sup>3</sup> inputs). In case you need to train your own model, modify *shapenet_dir* in *evalFID.py* and run:
+To test FID-all and FID-style, you need to first train a classification model on shapeNet. You can use the provided pre-trained weights here (*Clsshapenet_128.pth* and *Clsshapenet_256.pth* for 128<sup>3</sup> and 256<sup>3</sup> inputs).
+
+- [Clsshapenet_weights.zip](https://drive.google.com/file/d/1HjnDudrXsNY4CYhIGhH4Q0r3-NBnBaiC/view?usp=sharing)
+
+Backup links:
+
+- [Clsshapenet_weights.zip](https://pan.baidu.com/s/1rNgFDva5HouHx21NRRFfVQ) (pwd: 1234)
+
+In case you need to train your own model, modify *shapenet_dir* in *evalFID.py* and run:
 ```
 python main.py --prepFIDmodel --output_size 128 --gpu 0
 python main.py --prepFIDmodel --output_size 256 --gpu 0
