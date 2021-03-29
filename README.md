@@ -56,8 +56,8 @@ python main.py --data_style style_plane_32 --data_content content_plane_train --
 python main.py --data_style style_car_32 --data_content content_car_train --data_dir ./data/02958343/ --alpha 0.2 --beta 10.0 --input_size 64 --output_size 256 --train --gpu 0 --epoch 20
 python main.py --data_style style_table_64 --data_content content_table_train --data_dir ./data/04379243/ --alpha 0.2 --beta 10.0 --input_size 16 --output_size 128 --train --gpu 0 --epoch 50
 python main.py --data_style style_motor_16 --data_content content_motor_all_repeat20 --data_dir ./data/03790512/ --alpha 0.5 --beta 10.0 --input_size 64 --output_size 256 --train --asymmetry --gpu 0 --epoch 20
-python main.py --data_style style_laptop_32 --data_content content_laptop_all_repeat5 --data_dir ./data/03642806/ --alpha 0.2 --beta 10.0 --input_size 32 --output_size 256 --train --asymmetry --gpu 0
-python main.py --data_style style_plant_20 --data_content content_plant_all_repeat8 --data_dir ./data/03593526_03991062/ --alpha 0.5 --beta 10.0 --input_size 32 --output_size 256 --train --asymmetry --gpu 0
+python main.py --data_style style_laptop_32 --data_content content_laptop_all_repeat5 --data_dir ./data/03642806/ --alpha 0.2 --beta 10.0 --input_size 32 --output_size 256 --train --asymmetry --gpu 0 --epoch 20
+python main.py --data_style style_plant_20 --data_content content_plant_all_repeat8 --data_dir ./data/03593526_03991062/ --alpha 0.5 --beta 10.0 --input_size 32 --output_size 256 --train --asymmetry --gpu 0 --epoch 20
 ```
 Note that *style_chair_64* means the model will be trained with 64 detailed chairs. You can modify the list of detailed shapes in folder *splits*, such as *style_chair_64.txt*. You can also modify the list of content shapes in folder *splits*. The parameters *input_size* and *output_size* specify the resolutions of the input and output voxels. Valid settings are as follows:
 | Input resolution | Output resolution | Upsampling rate |
