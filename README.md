@@ -1,7 +1,7 @@
 # DECOR-GAN
 PyTorch 1.5 implementation for paper [DECOR-GAN: 3D Shape Detailization by Conditional Refinement](https://arxiv.org/abs/2012.09159), [Zhiqin Chen](https://czq142857.github.io/), [Vladimir G. Kim](http://www.vovakim.com/), [Matthew Fisher](https://techmatt.github.io/), [Noam Aigerman](https://noamaig.github.io/), [Hao Zhang](http://www.cs.sfu.ca/~haoz/), [Siddhartha Chaudhuri](https://www.cse.iitb.ac.in/~sidch/).
 
-### [Paper](https://arxiv.org/abs/2012.09159)  |   [Oral video](?)  |   [GUI demo video](https://youtu.be/xIQ0aslpn8g)
+### [Paper](https://arxiv.org/abs/2012.09159)  |   [Oral video](https://youtu.be/5Fg3RF45mGg)  |   [GUI demo video](https://youtu.be/xIQ0aslpn8g)
 
 <img src='teaser.png' />
 
