@@ -12,7 +12,7 @@ python setup.py build_ext --inplace
 
 ## Usage
 
-Step 0: download ShapeNet V1 from [ShapeNet](https://www.shapenet.org/), and change the ShapeNet data directories in all python code files.
+Step 0: download ShapeNet V1 from [ShapeNet](https://www.shapenet.org/), and change the ShapeNet data directories in all python code files. Download the linux executable of [binvox](https://www.patrickmin.com/binvox/) and put it in this folder.
 
 Step 1: run *1_simplify_obj.py* to normalize the shapes and remove unnecessary attributes (e.g., texture UV).
 ```
